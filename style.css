@@ -1,0 +1,58 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.login {
+    border-radius: 5%;
+    width: 30%;
+    padding: 5%;
+    margin: 10%;
+    margin-left: 30%;
+    background-color: #E8E2E2;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.30);
+}
+
+a {
+    text-decoration: none;
+    color: #0592F9;
+}
+
+a:hover {
+    color: #0080db;
+}
+.entrar {
+    font-family: 'Nunito', 'sans-serif';
+    width: 200px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.10);
+    height: 25px;
+}
+
+::placeholder{
+    font-family: 'Nunito', 'sans-serif';
+}
+
+.entrar:hover {
+    background-color: #E4E4E4;
+}
+
+.login-input:hover input {
+    background-color: #E4E4E4;
+}
+.login-input input{
+    border: none;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+label {
+    display: flex;
+    justify-content: left;
+    padding-left: 26%;
+}

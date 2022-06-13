@@ -1,0 +1,65 @@
+body {
+    background-color: #058dfb;
+    background-image: linear-gradient(45deg, #269dff 0%, #005194 100%);
+    font-family: 'Nunito', 'sans-serif';
+    overflow: hidden;
+}
+
+.login {
+    border-radius: 5%;
+    width: 30%;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-left: 30%;
+    background-color: #E8E2E2;
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.30);
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #058dfb;
+}
+
+a:hover {
+    color: #0076ca;
+}
+
+label {
+    display: flex;
+    justify-content: left;
+    padding-left: 27%;
+}
+
+.entrar {
+    font-family: 'Nunito', 'sans-serif';
+    width: 200px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.10);
+    height: 25px;
+}
+
+::placeholder{
+    font-family: 'Nunito', 'sans-serif';
+}
+
+.entrar:hover {
+    background-color: #dddddd;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.20);
+}
+
+.login-input:hover input {
+    background-color: #E4E4E4;
+}
+.login-input input{
+    border: none;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+}

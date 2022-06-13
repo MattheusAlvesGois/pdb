@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <title>Borges Car</title>
+</head>
+<body>
+    <div class="cadastro">
+        <img src="./img/borgeslogo.png" class="log">
+    <form action="" method="post" class="form">
+        <h1 class="h1">Faça seu Cadastro!</h1>
+        <div class="cadastro-input">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" required="required" placeholder="Nome">
+        </div>
+        <div class="cadastro-input">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" required="required" placeholder="Senha">
+        </div>
+        <div class="cadastro-input">
+            <label for="email">Email:</label>
+            <input type="email" name="email" required="required" placeholder="Email">
+        </div>
+        <div class="cadastro-input">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" required="required" placeholder="CPF">
+        </div>
+        <div class="cadastro-input">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" required="required" placeholder="Telefone">
+        </div>
+        <div class="cadastro-input">
+            <label for="rg">RG:</label>
+            <input type="text" name="rg" required="required" placeholder="RG">
+        </div>
+        <div class="select">
+        <select name="estado" id="estados"> 
+            <option value="selecione">Selecione o Estado</option> 
+        </select>
+        </div>
+        <div class="select">
+        <select name="cidade" id="cidades"> 
+            <option value="selecione">Selecione a Cidade</option>
+        </select>
+        </div>
+        <p>
+            Já possui uma conta? <a href="index.html">Faça seu login</a>
+        </p>
+        <input class="entrar" type="submit" value="Entrar">
+    </form>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

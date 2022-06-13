@@ -1,0 +1,214 @@
+
+.esquerda{
+    position: relative;
+    margin-right: 25%;
+}
+
+button{
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    background-color: #fff;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: .5s;
+    background-color: rgb(221, 221, 221);
+}
+
+.produtoIMG{
+    border: 1px solid #000000;
+    height: 8em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.produtos{
+    border: 1px solid #053266;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.produtos ul li{
+    display: inline-block;
+}
+
+.direita{
+    position: relative;
+    margin-left: 25%;
+}
+
+.col-100 ul li{
+    display: none;
+}
+
+.slider-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-principal a{
+    text-decoration: none;
+    color: #000;
+}
+
+.slick-arrow{
+    margin: 0 2em;
+}
+
+.slick-list {
+    width: 90%;
+}
+
+.col-100{
+    display: block;
+}
+
+.col-100 h2{
+    padding-left: 6.5%;
+    margin: 1em 0;
+}
+
+.slideFundo{
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.slide{
+    margin-top: 5.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.fundoAzul{
+    width: 100vw;
+    height: 100px;
+    background-color: #053266;
+    position: absolute;
+    bottom: 0%;
+}
+
+.slide ul li{
+    display: none;
+}
+
+.slide .slick-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide .slick-arrow{
+    font-size: 26px;
+}
+
+.video{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.imgtxcar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.fundoND{
+    position: relative;
+}
+
+.lista{
+    z-index: 10;
+}
+
+.FundoAzul{
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    background-color: #053266;
+    bottom: 0%;
+}
+
+.imgtxcar a{
+    text-decoration: none;
+    color: #000;
+}
+
+.fundoND a{
+    color: #fff;
+}
+
+.imgtxcar ul .linha{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.imgSpan{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.redesSociais a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.imgProduto {
+    width: 80%;
+}
+
+.imgproduto2 {
+    width: 50vh;
+}
+
+.logoborges {
+    padding-bottom: 2%;
+    width: 20vh;
+}
+.logoborges2 {
+    width: 20vh;
+}
+
+.insta {
+    width: 25px;
+}
+
+.linkedin {
+    width: 25px;
+}
+
+.whatsapp {
+    width: 25px;
+}
+
+.twitter {
+    width: 25px;
+}
+
+.youtube {
+    width: 25px;
+}
+
+.perfil {
+    width: 1.5em;
+}
+
+.compras {
+    width: 1.5em;
+}

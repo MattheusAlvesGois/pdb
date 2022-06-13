@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(75deg, #ffffff 0%, #c0c0c0 100%);
+    overflow: hidden;
+}
+
+ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li{
+    list-style: none;
+}
+ul li::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 6em;
+    font-weight: 700;
+    pointer-events: none;
+    opacity: 0;
+    letter-spacing: 20px;
+    transition: 0.5s;
+    white-space: nowrap;
+}
+ul li:hover:before{
+    opacity: 0.2;
+    letter-spacing: 0px;
+}
+ul li a{
+    position: relative;
+    display: inline-block;
+    padding: 6px 15px;
+    text-decoration: none;
+    background: #2196f3;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+ul:hover li a{
+    opacity: 0;
+}
+ul li a:hover{
+    transform: scale(1.4);
+    z-index: 1000;
+    background: #00579e;
+    opacity: 1;
+}
+
+.logo{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    padding-bottom: 23%;
+}
+
+ul li a{
+    text-align: center;
+    width: 150px;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.topo {
+    padding-top: 8%;
+    height: 5vh;
+    display: inline-block;
+    justify-content: left;
+    align-items: left;
+    font-size: 24px;
+    transition: .5s;
+    padding-left: 2%;
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 0.5%;
+}
+
+.topo ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 1em 0 1em;
+    position: relative;
+}
+
+.topo ul .itens a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.topo ul .itens a:hover{
+    color: #053266;
+}
+
+.topo ul .itens a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #053266;
+    margin: auto;
+    display: block;
+    transition: .5s;
+}
+
+.topo ul .itens a:hover::after{
+    width: 70%;
+}
+
+.procura {
+    position: relative;
+    left: 35%;
+    width: 50vh;
+    font-size: 3vh;
+    border: none;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.30);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+.produtos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.car {
+    width: 100%;
+    border-radius: 5%; 
+    min-height: 20vh;
+
+}
+.carro {    
+    justify-content: center;
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 15%;
+    border-radius: 5%;
+    height: 150%;
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.30);
+
+}
+
+.carrin {
+    padding-left: 10%;
+    padding-top: 1%;
+    font-size: 170%;
+    color: #000000;
+    
+}
+
+.carrin2 {
+    padding-left: 10%;
+    color: #646464;
+    
+}
+
+.carrin3 {
+    padding-left: 10%;
+    color: #646464;
+    padding-bottom: 5%;
+    
+}
+
+a {
+    text-decoration: none;
+}

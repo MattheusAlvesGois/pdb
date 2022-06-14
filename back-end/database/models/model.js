@@ -1,13 +1,12 @@
-const {sequelize, DataTypes} = require("./connect");
-const { v4: uuidv4 } = require('uuid');
+const {sequelize, DataTypes} = require("../connect");
 
-const Usuarios = sequelize.define('Funcionarios', {
+const Usuarios = sequelize.define('Usuarios', {
     nome: DataTypes.STRING,
     senha: DataTypes.STRING,
     email: DataTypes.STRING,
     cpf: DataTypes.STRING,
     telefone: DataTypes.STRING, 
-    rg: DataTypes.STRING,
+    rg: DataTypes.NUMBER,
     estado: DataTypes.STRING,
     cidade: DataTypes.STRING,
 });

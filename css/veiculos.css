@@ -54,7 +54,7 @@ body {
 
 .procura {
     position: relative;
-    left: 40vh;
+    left: 8%;
     width: 50vh;
     font-size: 3vh;
     border: none;
@@ -77,7 +77,7 @@ body {
 .car {
     width: 100%;
     border-radius: 5%; 
-    min-height: 145px;
+    min-height: 20vh;
 
 }
 .carro {    
@@ -88,21 +88,30 @@ body {
     border-radius: 5%;
     height: 150%;
     box-shadow: 0 5px 10px 0px rgba(0,0,0,0.30);
+
 }
 
 .carrin {
     padding-left: 10%;
     padding-top: 1%;
     font-size: 170%;
+    color: #000000;
+    
 }
 
 .carrin2 {
     padding-left: 10%;
     color: #646464;
+    
 }
 
 .carrin3 {
     padding-left: 10%;
     color: #646464;
     padding-bottom: 5%;
+    
+}
+
+a {
+    text-decoration: none;
 }

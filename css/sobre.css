@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.img {
+    width: 100%;
+    max-height: 100vh;
+}
+
+.ttop {
+    font-size: 340%;
+    padding-top: 1%;
+    padding-left: 2%;
+    color: #053266;
+}
+
+.t2top {
+    font-size: 200%;
+    padding-left: 2%;
+    color: #000000;
+}
+
+.t3top {
+    font-size: 150%;
+    padding-left: 2%;
+    color: #494949;
+}
